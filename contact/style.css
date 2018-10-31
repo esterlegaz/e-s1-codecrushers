@@ -53,6 +53,10 @@ body {
     font-weight: normal;
     font-size: 16px;
 }
+.group-name a{
+    color: white;
+    text-decoration: none;
+}
 
 .menu {
     background: rgba(20, 217, 196, 0.9);
@@ -147,4 +151,10 @@ ul{
 
 .logo-img {
     width: 100%;
+}
+/* Esto corresponde al menu */
+.list-item{
+    display:inline-block;
+    width: 200px;
+    line-height: 3;
 }

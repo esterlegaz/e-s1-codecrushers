@@ -25,7 +25,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #54585A;
-    text-align: center;P
+    text-align: center;
 }
 
 
@@ -295,9 +295,15 @@ ul{
 }
 
 
-/*no veo esta clase en html*/
-.team {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+ /* Esto corresponde al menu */
+.list-item{
+    display:inline-block;
+    width: 200px;
+    line-height: 3;
+}
+/* fin menu */
+/* corresponde a fotosmain */
+.profilepic-img{
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
 }
