@@ -158,3 +158,9 @@ ul{
     width: 200px;
     line-height: 3;
 }
+
+@media all and (max-width: 350px) {
+    .list-item-1 {
+        line-height: 24px;
+    }
+}
