@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #099D8D;
+}
+
+.h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #099D8D;
+}
+
+.main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #54585A;
+    text-align: center;P
+}
+
+
+/*header*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    top: 0px;
+}
+
+.group-name {
+    background-color: rgba(9, 157, 141, 0.9);
+    color: white;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.group-name a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    background: rgba(20, 217, 196, 0.9);
+}
+
+.list-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    height: 45px;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 0px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuItem {
+    position: relative;
+}
+
+.trick {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -105px;
+}
+
+/*hero*/
+
+.hero-claim {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url('../images/hero-1.jpg') left top no-repeat #FFFF;
+    height: 421px;
+    background-size:cover;
+}
+
+.claim {
+    background: #FFFF;
+    /* opacity: 0.7; */
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    width: 100%;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    position: relative;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center,
+}
+
+
+
+/*group*/
+
+.equipo {
+    text-align: center;
+}
+
+.equipo-info {
+    margin: 30px 15px;
+}
+
+.fortalezas-debilidades {
+    padding: 30px 15px 45px 15px;
+    background: #f1f1f1;
+}
+
+.fortalezas-debilidades .triangle {
+    height: 0px;
+    width: 0px;
+    border-right: 30px solid transparent;
+    border-top: 30px solid white;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.fortalezas {
+    margin-bottom: 30px;
+}
+
+
+
+/*about us*/
+
+.about-us{
+    text-align: center;
+}
+
+.h2--group {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.members{
+    padding: 0px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+} 
+
+.profilepic-img {
+    width: 100%;
+}
+
+.name {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.menu_rrss{
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+  
+.menu__item{
+    position: relative
+}
+
+.menu__item + .menu__item {
+    margin-left: 20px;
+}
+
+.menu__item + .menu__item::before {
+    content:'';
+    height: 2px;
+    width: 2px;
+    border-radius:50%;
+    display: inline-block;
+    background:black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -14px;
+}
+
+.menu__item + .menu__item {
+    margin-left: 20px;
+}
+
+
+/*footer*/
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #B8B8B9;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-links{
+    padding: 0px;
+}
+
+.list-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #54585A;
+    font-weight: 600;
+    text-align: center;
+}
+
+.list-footer>a {
+    color: #54585A;
+    text-decoration: none;
+}
+
+.logo {
+    width: 115.9px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.logo-img {
+    width: 100%;
+}
+
+
+
+/*no veo esta clase en html*/
+.contact-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+/*no veo esta clase en html*/
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
