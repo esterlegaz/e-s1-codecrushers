@@ -106,15 +106,17 @@ body {
 }
 
 
-
 /*footer*/
+
+.footer {
+    text-align: center;
+}
 
 .copyright {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #B8B8B9;
     font-weight: 400;
-    text-align: center; 
 }
 
 .list-footer {
@@ -122,7 +124,6 @@ body {
     font-size: 14px;
     color: #54585A;
     font-weight: 600;
-    text-align: center;
 }
 
 .list-footer>a {
@@ -130,28 +131,24 @@ body {
     text-decoration: none;
 }
 
+.footer-links{
+    padding: 0px;
+}
+
 ul{
     list-style: none;
 }
 
-.menu-footer {
-    display: flex;
-    justify-content: center;
-}
-
 .logo {
-    width: 115.9px;
-    height: 45px;
     margin-top: 30px;
     margin-bottom: 45px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .logo-img {
-    width: 100%;
+    width: 115.9px;
 }
+
+
 /* Esto corresponde al menu */
 .list-item{
     display:inline-block;
