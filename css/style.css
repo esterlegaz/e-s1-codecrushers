@@ -238,17 +238,15 @@ body {
 
 /*footer*/
 
-.copyright {
+.footer{
+    text-align: center;
+}
+
+.copyright{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #B8B8B9;
     font-weight: 400;
-    text-align: center; 
-}
-
-.menu-footer {
-    display: flex;
-    justify-content: center;
 }
 
 ul{
@@ -264,7 +262,6 @@ ul{
     font-size: 14px;
     color: #54585A;
     font-weight: 600;
-    text-align: center;
 }
 
 .list-footer>a {
@@ -273,27 +270,13 @@ ul{
 }
 
 .logo {
-    width: 115.9px;
-    height: 45px;
     margin-top: 30px;
     margin-bottom: 45px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .logo-img {
-    width: 100%;
+    width: 115.9px;
 }
-
-
-
-/*no veo esta clase en html*/
-.contact-title {
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
 
  /* Esto corresponde al menu */
 .list-item{
