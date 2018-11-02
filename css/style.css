@@ -108,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: url('../images/hero-1.jpg') left top no-repeat #FFFF;
+    background: url('../images/newhero.jpg') left top no-repeat #FFFF;
     height: 421px;
     background-size:cover;
 }
