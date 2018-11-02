@@ -71,13 +71,13 @@ body {
 .list-header {
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
     height: 45px;
     align-items: center;
     font-family: 'Rubik', sans-serif;
     padding: 0px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -157,8 +157,3 @@ ul{
     line-height: 3;
 }
 
-@media all and (max-width: 350px) {
-    .list-item-1 {
-        line-height: 24px;
-    }
-}
