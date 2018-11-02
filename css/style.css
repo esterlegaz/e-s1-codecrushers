@@ -73,6 +73,7 @@ body {
     align-items: center;
     font-family: 'Rubik', sans-serif;
     padding: 0px;
+    font-size: 15px;
 }
 
 .menu a {
@@ -290,10 +291,4 @@ ul{
 .profilepic-img{
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.11);
     border-radius: 4px;
-}
-
-@media all and (max-width: 374px) {
-    .list-item-1 {
-        line-height: 24px;
-    }
 }
