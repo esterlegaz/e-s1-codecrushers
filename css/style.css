@@ -331,36 +331,24 @@ ul{
         width: 70%; /*width unknown*/
         bottom: 0px;
         align-items: flex-start;
-    
     }
 
     .h2--group {
         margin-top: 45px;
-        
     }
 
     .group-description {
         width: 601px;
         margin-bottom: 60px;
-        color: #b8b8b9;
         text-align: center;
         margin-top: 0;
-        
     }
 
     .equipo-info {
         display:flex;
         align-items: center;
         flex-direction: column;
-    }
-    .main-text {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: #54585A;
-        text-align: center;
-        padding: 0;
-        margin:0;
+        margin: 0px;
     }
 
 }
