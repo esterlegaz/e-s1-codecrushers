@@ -286,7 +286,7 @@ ul{
 }
 
  /* Esto corresponde al menu */
-.list-item{
+.list-item {
     display:inline-block;
     width: 200px;
     line-height: 3;
