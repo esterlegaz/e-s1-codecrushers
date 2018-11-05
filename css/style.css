@@ -385,4 +385,9 @@ ul{
         top: -60px;
     }
 
+    .hero-claim{
+        background: url(/images/hero-1.jpg) center no-repeat #FFFF;
+        background-size: 100%;
+    }
+
 }
