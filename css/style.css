@@ -310,3 +310,67 @@ ul{
     text-align: center,
 }
 /* Hasta aquí el contact */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        top: 0px;
+        flex-flow: row;
+        margin: 0;
+        height: 60px;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        padding: 0 45px;
+        font-size: 15px;
+        background-color: rgba(9, 157, 141, 0.9);
+        color: white;
+
+    }
+    
+    .group-name {
+        font-size: 16px;
+        background-color: rgba(9, 157, 141, 0);
+        min-width: 50vw;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    
+    .group-name a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu {
+        background-color: rgba(9, 157, 141, 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* .menuItem {
+        position: relative;
+    } */
+    
+    .trick {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        top: -60px;
+    }
+
+    .list-item{
+        width: 100px;
+        display:inline-block;
+}
