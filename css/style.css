@@ -310,3 +310,84 @@ ul{
     text-align: center,
 }
 /* Hasta aquí el contact */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+
+    .header {
+        position: fixed;
+        width: 100vw;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        top: 0px;
+        margin: 0;
+        padding: 0 45px;
+        height: 60px;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        background-color: rgba(9, 157, 141, 0.9);
+        color: white;
+    }
+    
+    .group-name {
+        font-size: 16px;
+        background-color: rgba(9, 157, 141, 0);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .group-name a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu {
+        background-color: rgba(9, 157, 141, 0);
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .menu a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .list-item{
+        margin: 0;
+        padding: 0;
+        display:inline-block;
+        width: 80px;
+        line-height: 3;
+    }
+
+    .list-item-1{
+        margin: 0;
+        padding: 0;
+        display:inline-block;
+        width: 120px;
+    }
+
+    .list-header {
+        display: flex;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        padding: 0; 
+        margin: 0;
+    }
+    
+    .trick {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        top: -60px;
+    }
+
+    .hero-claim{
+        background: url(/images/hero-1.jpg) center no-repeat #FFFF;
+        background-size: 100%;
+    }
+
+}
