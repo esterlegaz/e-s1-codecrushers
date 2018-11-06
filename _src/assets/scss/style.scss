@@ -444,18 +444,20 @@ ul{
     }
     .fortalezas-debilidades .triangle {
     transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
+    }
+
     .footer{
         display: flex;
         justify-content: space-between;
-        }
+    }
         
     .copyright{
         margin: 30px 0 15px 0;
-        }
+    }
             
     .logo{
         margin: 0 0 60px 0;
-        }
+    }
     
     .footer-links{
         text-align: right;
@@ -513,7 +515,7 @@ ul{
     }
     
     
-    .list-item{
+    .list-item {
         margin: 0;
         padding: 0;
         display:inline-block;
@@ -521,7 +523,7 @@ ul{
         line-height: 3;
     }
 
-    .list-item-1{
+    .list-item-1 {
         margin: 0;
         padding: 0;
         display:inline-block;
@@ -550,7 +552,7 @@ ul{
         background-size: 100%;
     }
     
-    .claim-container{
+    .claim-container {
         width: 924px;
     }
 
@@ -612,15 +614,15 @@ ul{
     .footer{
         display: flex;
         justify-content: space-between;
-        }
+    }
         
     .copyright{
         margin: 30px 0 15px 0;
-        }
+    }
             
     .logo{
         margin: 0 0 60px 0;
-        }
+    }
     
     .footer-links{
         text-align: right;
@@ -642,5 +644,4 @@ ul{
     .logo-tablet{
         display: block;
     }
-}
 }
