@@ -127,8 +127,6 @@ body {
     align-items: center;
 }
 
-
-
 /*group*/
 
 .equipo {
@@ -159,7 +157,6 @@ body {
 .fortalezas {
     margin-bottom: 30px;
 }
-
 
 
 /*about us*/
@@ -389,5 +386,75 @@ ul{
         background: url(/images/hero-1.jpg) center no-repeat #FFFF;
         background-size: 100%;
     }
+}
+@media all and (min-width:1200px){
 
+    /*CLAIM*/
+    .h2-claim {
+        font-size: 24px;
+        text-align: left; /*Doesn't work*/
+    }
+
+    .hero-claim {
+        height: 550px;
+    }
+    
+    .claim-container{
+        width: 924px;
+    }
+
+    .claim {
+        opacity: 0.7;
+        padding: 15px 30px;
+        margin: 0px;
+        width: 70%; /*width unknown*/
+        bottom: 0px;
+        align-items: flex-start;
+    }
+
+    /*EQUIPO*/
+    .h2--group {
+        margin-top: 45px;
+    }
+
+    .group-description {
+        width: 601px;
+        margin-bottom: 60px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .equipo-info {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    /*FORTALEZAS Y DEBILIDADES*/
+
+    .fortalezas-debilidades {
+        display: flex;
+        justify-content: center;
+        padding: 0px 45px 60px 45px;
+    }
+
+    .fortalezas-debilidades-justified-container {
+        display: flex;
+        width: 900px;
+        padding-top: 45px;
+    }
+    
+    .fortalezas {
+        margin: 0px;
+        width: 50%;
+    }
+
+    .debilidades{
+        width: 50%;
+    }
+    
+    .fortalezas-debilidades .triangle {
+        transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
+    }
 }
