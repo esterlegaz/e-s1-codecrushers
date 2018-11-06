@@ -249,8 +249,8 @@ body {
 /*footer*/
 
 .footer{
-    text-align: center;
     border-top: 1px solid #B8B8B9;
+    text-align: center;
 }
 
 .copyright{
@@ -288,6 +288,10 @@ ul{
 
 .logo-img {
     width: 115.9px;
+}
+
+.logo-tablet{
+    display: none;
 }
 
  /* Esto corresponde al menu */
@@ -440,6 +444,38 @@ ul{
     }
     .fortalezas-debilidades .triangle {
     transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+        }
+            
+    .logo{
+        margin: 0 0 60px 0;
+        }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-tablet{
+        display: block;
     }
 }
 
@@ -571,5 +607,39 @@ ul{
     
     .fortalezas-debilidades .triangle {
         transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+        }
+            
+    .logo{
+        margin: 0 0 60px 0;
+        }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-tablet{
+        display: block;
     }
 }
