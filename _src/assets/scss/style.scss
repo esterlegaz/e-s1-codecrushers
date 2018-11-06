@@ -385,7 +385,55 @@ ul{
     .hero-claim{
         background: url(../images/hero-1.jpg) center no-repeat #FFFF;
         background-size: 100%;
+
     }
+    // about us
+    
+    .profilepic-img{
+        width: 205px;
+        height: 205px;
+        position: static;
+
+        
+         }
+      
+    .profile-pic{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;            
+        position: static;
+        margin:150px;
+        
+    }
+    
+    .main-text{
+        display: flex;
+        flex-direction:row;
+        align-items: flex-end;
+        width: 400px;
+        height: 225px;
+        text-align: left;
+        position: static;
+        background-color: red;
+        padding-bottom: 20px;
+        
+        
+    }
+    .name{
+        background: blue;
+        width: 200px;
+        height: 50px;
+        padding:12px;
+    
+    }
+    
+    
+
+    
+       
+   
+   
+
 }
 @media all and (min-width:1200px){
 
@@ -457,4 +505,6 @@ ul{
     .fortalezas-debilidades .triangle {
         transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
     }
+   
+    
 }
