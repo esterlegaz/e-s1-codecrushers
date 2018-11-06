@@ -242,8 +242,9 @@ body {
 /*footer*/
 
 .footer{
-    text-align: center;
     border-top: 1px solid #B8B8B9;
+    text-align: center;
+    position: relative;
 }
 
 .copyright{
@@ -276,11 +277,13 @@ ul{
 .logo {
     margin-top: 30px;
     margin-bottom: 45px;
+    bottom: 0;
 }
 
 .logo-img {
     width: 115.9px;
 }
+
 
  /* Esto corresponde al menu */
 .list-item {
@@ -386,6 +389,32 @@ ul{
         background: url(../images/hero-1.jpg) center no-repeat #FFFF;
         background-size: 100%;
     }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+        }
+            
+    .logo{
+        margin: 0 0 60px 0;
+        }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
+    }
 }
 @media all and (min-width:1200px){
 
@@ -456,5 +485,31 @@ ul{
     
     .fortalezas-debilidades .triangle {
         transform: translate(-50%, 0px); /*magia. Nadie sabe por que, pero si lo quitas se descuadra*/
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+        }
+            
+    .logo{
+        margin: 0 0 60px 0;
+        }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
     }
 }
