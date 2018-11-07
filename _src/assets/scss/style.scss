@@ -177,17 +177,15 @@ body {
 }
 
 .profile-pic {
-    width: 180px;
-    height: 180px;
+ 
     margin-top: 30px;
     margin-bottom: 15px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    
 } 
 
 .profilepic-img {
-    width: 100%;
+    width: 180px;
+    height: 180px;
 }
 
 .name {
@@ -388,53 +386,73 @@ ul{
 
     }
     // about us
-    
-    .profilepic-img{
+    .about-us{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .h2--group {
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .members li:nth-child(even) article{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .members li:nth-child(odd) article{
+        display: flex;
+        flex-direction: row; 
+    }
+    .name {
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px; 
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .name.par {
+        text-align: right;
+        margin-right: 15px;
+    }
+    .member-description {
+        
+    }
+    .member-description.par {
+        text-align: right;
+    }
+    .main-text.description {
+        text-align: left;
+    }
+    .main-text.description.par {
+        text-align: right;
+    }
+   
+    .profilepic-img {
         width: 205px;
         height: 205px;
-        position: static;
-
         
-         }
-      
-    .profile-pic{
+    }
+    .rrss {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;            
-        position: static;
-        margin:150px;
-        
+        margin: 15px;
+        justify-content: flex-start;
     }
-    
-    .main-text{
+    // .rrss.par {
+    //     justify-content: flex-end;
+    // }
+    .menu_rrss{
+        padding: 10px 0;
+        margin: 0;
+        list-style: none;
         display: flex;
-        flex-direction:row;
-        align-items: flex-end;
-        width: 400px;
-        height: 225px;
-        text-align: left;
-        position: static;
-        background-color: red;
-        padding-bottom: 20px;
-        
-        
-    }
-    .name{
-        background: blue;
-        width: 200px;
-        height: 50px;
-        padding:12px;
-    
-    }
-    
-    
-
-    
-       
-   
-   
-
+    }  
+ 
 }
+
+
 @media all and (min-width:1200px){
 
     /*CLAIM*/
