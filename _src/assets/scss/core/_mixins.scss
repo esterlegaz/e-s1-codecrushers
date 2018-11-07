@@ -1,0 +1,36 @@
+@import 'variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: $colorTitle;
+}
+
+.h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: $colorTitle;
+}
+
+.main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $colorText;
+    text-align: center;
+    padding: 0 15px;
+}

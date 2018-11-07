@@ -1,0 +1,113 @@
+.footer{
+    border-top: 1px solid $footerText;
+    text-align: center;
+}
+
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: $footerText;
+    font-weight: 400;
+    margin: 30px 0 20px 0;
+}
+
+.footer-links{
+    padding: 0px;
+}
+
+.list-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: $colorText;
+    font-weight: 600;
+}
+
+.list-footer>a {
+    color: $colorText;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.logo-img {
+    width: 115.9px;
+}
+
+.logo-tablet{
+    display: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+    }
+            
+    .logo{
+        margin: 0 0 60px 0;
+    }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-tablet{
+        display: block;
+    }
+}
+
+@media all and (min-width:1200px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+        
+    .copyright{
+        margin: 30px 0 15px 0;
+    }
+            
+    .logo{
+        margin: 0 0 60px 0;
+    }
+    
+    .footer-links{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .left-menu{
+        margin-left: 120px;
+    }
+
+    .right-menu{
+        margin-right: 120px;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-tablet{
+        display: block;
+    }
+}

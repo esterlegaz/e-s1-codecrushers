@@ -1,0 +1,128 @@
+.equipo {
+    text-align: center;
+}
+
+.equipo-info {
+    margin: 30px 0px;
+}
+
+.fortalezas-debilidades {
+    padding: 30px 15px 45px 15px;
+    background: #f1f1f1;
+}
+
+.fortalezas-debilidades .triangle {
+    height: 0px;
+    width: 0px;
+    border-right: 30px solid transparent;
+    border-top: 30px solid $colorwhite;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.fortalezas {
+    margin-bottom: 30px;
+}
+
+.trick {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -105px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .h2--group {
+        margin-top: 45px;
+        }
+        .group-description {
+        width: 601px;
+        margin-bottom: 60px;
+        text-align: center;
+        margin-top: 0;
+        }
+        .equipo-info {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        }
+ 
+        .fortalezas-debilidades {
+        display: flex;
+        justify-content: center;
+        padding: 0px 45px 60px 45px;
+        }
+        .fortalezas-debilidades-justified-container {
+        display: flex;
+        width: 900px;
+        padding-top: 45px;
+        }
+        .fortalezas {
+        margin: 0px;
+        width: 50%;
+        }
+        .debilidades{
+        width: 50%;
+        }
+        .fortalezas-debilidades .triangle {
+        transform: translate(-50%, 0px);
+        }
+        .trick {
+            width: 0;
+            height: 0;
+            position: absolute;
+            left: 0;
+            top: -60px;
+        }
+    
+}
+@media all and (min-width:1200px){
+    .h2--group {
+        margin-top: 45px;
+    }
+
+    .group-description {
+        width: 601px;
+        margin-bottom: 60px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .equipo-info {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .fortalezas-debilidades {
+        display: flex;
+        justify-content: center;
+        padding: 0px 45px 60px 45px;
+    }
+
+    .fortalezas-debilidades-justified-container {
+        display: flex;
+        width: 900px;
+        padding-top: 45px;
+    }
+    
+    .fortalezas {
+        margin: 0px;
+        width: 50%;
+    }
+
+    .debilidades{
+        width: 50%;
+    }
+    
+    .fortalezas-debilidades .triangle {
+        transform: translate(-50%, 0px);
+    }
+
+}

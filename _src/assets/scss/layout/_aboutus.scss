@@ -1,0 +1,86 @@
+.about-us{
+    text-align: center;
+}
+
+.h2--group {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.h2--about-us {
+    display: inline-block;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+.members{
+    padding: 0px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+} 
+
+.profilepic-img {
+    width: 100%;
+}
+
+.name {
+    color: $colorBlack;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.menu_rrss{
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+  
+.menu__item{
+    position: relative
+}
+
+.menu__item + .menu__item {
+    margin-left: 20px;
+}
+
+.menu__item + .menu__item::before {
+    content:'';
+    height: 2px;
+    width: 2px;
+    border-radius:50%;
+    display: inline-block;
+    background:$colorBlack;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -14px;
+}
+
+.menu__item + .menu__item {
+    margin-left: 20px;
+}
+
+.profilepic-img{
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+}

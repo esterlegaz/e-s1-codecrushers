@@ -1,0 +1,83 @@
+.hero-claim {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url('../images/newhero.jpg') center no-repeat $colorwhite;
+    height: 421px;
+    background-size: cover;
+}
+
+.hero-claim-contact {
+    height: 300px;
+}
+
+.claim {
+    background-color: $colorwhite;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+    bottom: -26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-claim {
+    color: $colorBlack;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .hero-claim{
+        background: url(../images/hero-1.jpg) center no-repeat $colorwhite;
+        background-size: 100%;
+    }
+    .h2-claim {
+        font-size: 24px;
+        text-align: left; /*Doesn't work*/
+        }
+        .hero-claim {
+        height: 421px;
+        }
+        .claim-container{
+        width: 924px;
+        }
+        .claim {
+        opacity: 0.7;
+        padding: 15px 30px;
+        margin-left: 50px;
+        width: 441px; 
+        bottom: 0px;
+        align-items: flex-start;
+        }
+    }
+
+    @media all and (min-width:1200px){
+        .h2-claim {
+            font-size: 24px;
+            text-align: left; /*Doesn't work*/
+        }
+    
+        .hero-claim {
+            height: 550px;
+            background: url(../images/hero-1.jpg) center top no-repeat $colorwhite;
+            background-size: 100%;
+        }
+        
+        .claim-container {
+            width: 924px;
+        }
+    
+        .claim {
+            opacity: 0.7;
+            padding: 15px 30px;
+            margin: 0px;
+            width: 50%; /*width unknown*/
+            bottom: 0px;
+            align-items: flex-start;
+        }
+    }
