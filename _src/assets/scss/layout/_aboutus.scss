@@ -85,62 +85,84 @@
  // about us
  @media all and (min-width: 768px) and (max-width: 1200px) {
  .about-us{
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 60px;
 }
-.h2--group {
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 15px;
+
+.h2--about-us {
+    margin: 45px 0 45px 0;
 }
+
+.members {
+    margin: 0;
+}
+
 .members li:nth-child(even) article{
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
+
 .members li:nth-child(odd) article{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
+
+
 .name {
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px; 
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 0px;
     margin-bottom: 0;
     text-align: left;
 }
 .name.par {
     text-align: right;
-    margin-right: 15px;
 }
 .member-description {
-    
+    margin-left: 45px;
 }
+
 .member-description.par {
     text-align: right;
+    margin-left: 0;
+    margin-right: 45px;
+    
 }
 .main-text.description {
     text-align: left;
+    padding: 0;
+
 }
 .main-text.description.par {
     text-align: right;
+
 }
 
 .profilepic-img {
     width: 205px;
     height: 205px;
-    
 }
+
+.profile-pic {
+    margin: 0;
+}
+
 .rrss {
     display: flex;
-    margin: 15px;
+    margin: 0px;
     justify-content: flex-start;
 }
-// .rrss.par {
-//     justify-content: flex-end;
-// }
+
+.rrss.par {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .menu_rrss{
     padding: 10px 0;
     margin: 0;
@@ -148,3 +170,96 @@
     display: flex;
 }  
  }
+
+
+ @media all and (min-width: 1200px) {
+    .about-us{
+       margin-left: 130px;
+       margin-right: 130px;
+       padding-bottom: 60px;
+   }
+   
+   .h2--about-us {
+       margin: 45px 0 45px 0;
+   }
+   
+   .members {
+       margin: 0;
+   }
+   
+   .members li:nth-child(even) article{
+       display: flex;
+       flex-direction: row-reverse;
+       margin-top: 60px;
+       margin-bottom: 60px;
+   }
+   
+   .members li:nth-child(odd) article{
+       display: flex;
+       flex-direction: row;
+   }
+   
+   .name {
+       color: #000000;
+       font-family: 'Open Sans', sans-serif;
+       font-weight: 400;
+       font-size: 20px; 
+       margin-top: 0px;
+       margin-bottom: 0;
+       text-align: left;
+   }
+
+   .name.par {
+       text-align: right;
+   }
+
+   .member-description {
+       margin-left: 45px;
+       width: 439px;
+   }
+   
+   .member-description.par {
+       text-align: right;
+       margin-left: 0;
+       margin-right: 45px;
+   }
+
+   .main-text.description {
+       text-align: left;
+       padding: 0;
+   
+   }
+   .main-text.description.par {
+       text-align: right;
+   
+   }
+   
+   .profilepic-img {
+       width: 278px;
+       height: 278px;
+   }
+
+   .profile-pic {
+    margin: 0;
+    }
+   
+    .rrss {
+       display: flex;
+       margin: 0px;
+       justify-content: flex-start;
+   }
+   
+    .rrss.par {
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+   .menu_rrss{
+       padding: 10px 0;
+       margin: 0;
+       list-style: none;
+       display: flex;
+   }
+
+}
+   
