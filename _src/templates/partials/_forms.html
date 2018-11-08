@@ -1,22 +1,24 @@
-<div class="form-info"><p>Todos los campos marcados con * son obligatorios.</p></div>
 <div class="form">
+<div class="main-text form-info"><p>Todos los campos marcados con * son obligatorios.</p></div>
+<div class="form-area">
     <form action="" method="post">
-        <div>
-            <label class="label" for="name">Nombre completo*</label>
-            <input class="block name" placeholder="Nombre..." id="name" type="text" name="firstName" required>
+        <div class="form-item">
+            <label class="label" for="firstName">Nombre completo*</label>
+            <input class="block firstName" placeholder="Nombre..." id="name" type="text" name="firstName" required>
         </div>
-        <div>
+        <div class="form-item">
             <label class="label" for="email">Email*</label>
             <input class="block email" value="nombre.apellidos@mail.com" id="email" type="email" name="email" required>
         </div>
-        <div>
+        <div class="form-item">
             <label class="label" for="phone">Teléfono</label>
             <input class="block phone" type="number" id="phone" name="phone" placeholder="Ej: 123456789" pattern="[0-9] {9}">
         </div>
-        <div>
+        <div class="form-item">
             <label class="label" for="message">Mensaje*</label>
             <input class="block message" placeholder="¿Qué necesitas?" id="message" type="textarea" name="message" required>
         </div>
-        <input type="submit" value="Enviar">
+        <input class="button" type="submit" value="Enviar">
     </form>
+</div>
 </div>

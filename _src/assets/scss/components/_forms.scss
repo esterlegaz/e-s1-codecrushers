@@ -1,0 +1,56 @@
+.form {
+    margin: 0 auto;
+}
+.form-info {
+    margin-bottom: 60px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.form-area {
+    margin: 0 15px;
+    max-width: 601px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.form-item {
+    min-width: 290px;
+}
+
+.label {
+    display: block;
+    color: $colorText;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px 15px 0px;
+    height: 45px;
+}
+
+.message {
+    height: 106px;
+}
+
+.block::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: yellow;
+    line-height: 1;
+    font-family: 'Comic Sans MS';
+  }
+  .form__field::-moz-placeholder { /* Firefox 19+ */
+    color: yellow;
+  }
+  .form__field:-ms-input-placeholder { /* IE 10+ */
+    color: yellow;
+  }
+  .form__field:-moz-placeholder { /* Firefox 18- */
+    color: yellow;
+  }
+
+.button {
+    background-color: $colorTitle;
+}
