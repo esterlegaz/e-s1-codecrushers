@@ -9,7 +9,6 @@
 .group-name {
     background-color: $colorBGgroup;
     color: $colorwhite;
-    position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 60px;
@@ -45,10 +44,6 @@
 .menu a {
     color: $colorwhite;
     text-decoration: none;
-}
-
-.menuItem {
-    position: relative;
 }
 
 .list-item {

@@ -36,80 +36,86 @@
     width: 115.9px;
 }
 
-.logo-tablet{
-    display: none;
-}
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
+
     .footer{
+        height: 165px;
+        
+    }
+            
+    .footer_container{
+        margin: 30px 45px 60px 45px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
+        height: 75px;
+        position: relative;
+            
     }
         
     .copyright{
-        margin: 30px 0 15px 0;
-    }
-            
-    .logo{
-        margin: 0 0 60px 0;
+        margin: 0px;
     }
     
     .footer-links{
         text-align: right;
-        margin-top: 30px;
-        line-height: 25px;
+        margin-top: 0px;
+        li{
+            padding:5px;
+        }
+    }
+            
+    .logo{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        
     }
     
-    .left-menu{
-        margin-left: 60px;
-    }
-
-    .right-menu{
-        margin-right: 60px;
-    }
-
-    .logo-mobile{
-        display: none;
-    }
-
-    .logo-tablet{
-        display: block;
+    .logo-img{
+        position: absolute;
+        
     }
 }
+
 
 @media all and (min-width:1200px){
     .footer{
+        height: 165px;
+        
+    }
+            
+    .footer_container{
+        margin: 30px 120px 60px 120px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
+        height: 75px;
+        position: relative;
+            
     }
         
     .copyright{
-        margin: 30px 0 15px 0;
-    }
-            
-    .logo{
-        margin: 0 0 60px 0;
+        margin: 0px;
     }
     
     .footer-links{
         text-align: right;
-        margin-top: 30px;
-        line-height: 25px;
+        margin-top: 0px;
+        li{
+            padding:5px;
+        }
+    }
+            
+    .logo{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        
     }
     
-    .left-menu{
-        margin-left: 120px;
+    .logo-img{
+        position: absolute;
+        
     }
 
-    .right-menu{
-        margin-right: 120px;
-    }
-
-    .logo-mobile{
-        display: none;
-    }
-
-    .logo-tablet{
-        display: block;
-    }
 }
