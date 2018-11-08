@@ -1,3 +1,7 @@
+.h2 {
+    @include h2();
+}
+
 .hero-claim {
     display: flex;
     justify-content: center;

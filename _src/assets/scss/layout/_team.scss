@@ -1,3 +1,15 @@
+.h2 {
+    @include h2();
+}
+
+.h3 {
+    @include h3();
+}
+
+.main-text {
+    @include main-text();
+}
+
 .equipo {
     text-align: center;
 }
