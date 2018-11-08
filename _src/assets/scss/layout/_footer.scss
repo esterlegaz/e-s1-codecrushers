@@ -36,44 +36,38 @@
     width: 115.9px;
 }
 
-.logo-tablet{
-    display: none;
-}
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
-    .footer{
+
+    .footer_container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
+        position: relative;
+        height: 160px;
     }
         
     .copyright{
-        margin: 30px 0 15px 0;
-    }
-            
-    .logo{
-        margin: 0 0 60px 0;
+        margin: 30px 0 15px 45px;
     }
     
     .footer-links{
         text-align: right;
-        margin-top: 30px;
-        line-height: 25px;
+        margin: 25px 45px 60px 0;
+        li {
+            padding-bottom: 5px;
+        }
+    }
+            
+    .logo{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        // margin-bottom: 60px;
+        margin-left: 45px;
     }
     
-    .left-menu{
-        margin-left: 60px;
-    }
-
-    .right-menu{
-        margin-right: 60px;
-    }
-
-    .logo-mobile{
-        display: none;
-    }
-
-    .logo-tablet{
-        display: block;
+    .logo-img{
+        position: absolute;
     }
 }
 
@@ -82,34 +76,36 @@
         display: flex;
         justify-content: space-between;
     }
+            
+    .footer_container{
+        display: flex;
+        justify-content: space-between; 
+        height: 103px;
+        position: relative;
+        background: red;
+    }
         
     .copyright{
-        margin: 30px 0 15px 0;
-    }
-            
-    .logo{
-        margin: 0 0 60px 0;
+        margin: 30px 0 15px 45px;
     }
     
     .footer-links{
         text-align: right;
-        margin-top: 30px;
-        line-height: 25px;
+        margin-top: 25px;
+    }
+            
+    .logo{
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        margin-bottom: 60px;
+        margin-left: 45px;
+        margin-top: 15px;
     }
     
-    .left-menu{
-        margin-left: 120px;
+    .logo-img{
+        position: absolute;
+        margin-bottom: 60px;
     }
 
-    .right-menu{
-        margin-right: 120px;
-    }
-
-    .logo-mobile{
-        display: none;
-    }
-
-    .logo-tablet{
-        display: block;
-    }
 }
