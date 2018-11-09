@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: url('../images/newhero.jpg') center no-repeat $colorwhite;
+    background: url('../images/hero_home-mobile.jpg') center no-repeat $colorwhite;
     height: 421px;
     background-size: cover;
 }
@@ -36,9 +36,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
     .hero-claim{
-        background: url(../images/hero-1.jpg) center no-repeat $colorwhite;
-        background-size: 100%;
-        height: 421px;
+        background: url('../images/hero_home-tablet.jpg') center no-repeat $colorwhite;
     }
 
     .hero-claim-contact {
@@ -47,7 +45,6 @@
 
     .h2-claim {
         font-size: 24px;
-        text-align: left; /*Doesn't work*/
     }
     
     .claim-container{
@@ -66,12 +63,10 @@
     @media all and (min-width:1200px){
         .h2-claim {
             font-size: 24px;
-            text-align: left; /*Doesn't work*/
         }
     
         .hero-claim {
-            height: 550px;
-            background: url(../images/hero-1.jpg) center top no-repeat $colorwhite;
+            background: url('../images/hero_home-desktop.jpg') center top no-repeat $colorwhite;
             background-size: 100%;
         }
 

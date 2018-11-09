@@ -14,12 +14,22 @@
     justify-content: center;
     align-items: center;
 }
+
+.hero-claim{
+    background: url('../images/hero_contact-mobile.jpg') center no-repeat $colorwhite;
+    background-size: 100%;
+}
+
 @media all and (min-width: 768px) and (max-width: 1200px) {
     .contact-text{
         width: 442px;
         & p {
             margin-top: 0;
         }
+    }
+    .hero-claim{
+        background: url('../images/hero_home-tablet.jpg') center no-repeat $colorwhite;
+        background-size: 100%;
     }
 }
 
@@ -34,5 +44,9 @@
         & p {
             margin-top: 0;
         }
+    }
+    .hero-claim{
+        background: url('../images/hero_contact-desktop.jpg') center no-repeat $colorwhite;
+        background-size: 100%;
     }
 }
