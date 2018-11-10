@@ -1,9 +1,9 @@
-.footer{
+.footer {
     border-top: 1px solid $footerText;
     text-align: center;
 }
 
-.copyright{
+.copyright {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: $footerText;
@@ -11,7 +11,7 @@
     margin: 30px 0 20px 0;
 }
 
-.footer-links{
+.footer-links {
     padding: 0px;
 }
 
@@ -20,11 +20,11 @@
     font-size: 14px;
     color: $colorText;
     font-weight: 600;
-}
 
-.list-footer>a {
-    color: $colorText;
-    text-decoration: none;
+    & a {
+        color: $colorText;
+        text-decoration: none;
+    }
 }
 
 .logo {
@@ -39,83 +39,77 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
 
-    .footer{
-        height: 165px;
-        
+    .footer {
+        height: 165px;       
     }
             
-    .footer_container{
+    .footer_container {
         margin: 30px 45px 60px 45px;
         display: flex;
         justify-content: space-between; 
         height: 75px;
-        position: relative;
-            
+        position: relative;     
     }
         
     .copyright{
         margin: 0px;
     }
     
-    .footer-links{
+    .footer-links {
         text-align: right;
         margin-top: 0px;
-        li{
+
+        & li {
             padding:5px;
         }
     }
             
-    .logo{
+    .logo {
         position: absolute;
         bottom: 0px;
         left: 0;
-        
     }
     
-    .logo-img{
+    .logo-img {
         position: absolute;
-        
     }
 }
 
 
-@media all and (min-width:1200px){
-    .footer{
-        height: 165px;
-        
+@media all and (min-width:1200px) {
+
+    .footer {
+        height: 165px;    
     }
             
-    .footer_container{
+    .footer_container {
         margin: 30px 120px 60px 120px;
         display: flex;
         justify-content: space-between; 
         height: 75px;
         position: relative;
-            
     }
         
-    .copyright{
+    .copyright {
         margin: 0px;
     }
     
-    .footer-links{
+    .footer-links {
         text-align: right;
         margin-top: 0px;
-        li{
+
+        & li {
             padding:5px;
         }
     }
             
-    .logo{
+    .logo {
         position: absolute;
         bottom: 0px;
         left: 0;
-        
     }
     
-    .logo-img{
+    .logo-img {
         position: absolute;
-        
     }
-
 }

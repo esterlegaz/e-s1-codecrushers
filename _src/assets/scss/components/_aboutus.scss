@@ -1,5 +1,3 @@
-
-
 .h2 {
     @include h2();
 }
@@ -8,7 +6,7 @@
     @include main-text();
 }
 
-.about-us{
+.about-us {
     text-align: center;
     margin-bottom: 30px;
     max-width: 1080px;
@@ -26,7 +24,7 @@
     text-align: center;
 }
 
-.members{
+.members {
     padding: 0px;
 }
 
@@ -57,7 +55,7 @@
     padding-bottom: 15px;
 }
 
-.menu_rrss{
+.menu_rrss {
     padding: 10px 0;
     margin: 0;
     padding: 0;
@@ -91,10 +89,11 @@
     margin-left: 20px;
 }
 
-.profilepic-img{
+.profilepic-img {
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.11);
     border-radius: 4px;
 }
+
  // about us
  @media all and (min-width: 768px) and (max-width: 1200px) {
  .about-us{
@@ -111,18 +110,17 @@
     margin: 0;
 }
 
-.members li:nth-child(even) article{
+.members li:nth-child(even) article {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.members li:nth-child(odd) article{
+.members li:nth-child(odd) article {
     display: flex;
     flex-direction: row;
 }
-
 
 .name {
     color: #000000;
@@ -133,9 +131,11 @@
     margin-bottom: 0;
     text-align: left;
 }
+
 .name.par {
     text-align: right;
 }
+
 .member-description {
     margin-left: 30px;
 }
@@ -176,7 +176,7 @@
     justify-content: flex-end;
 }
 
-.menu_rrss{
+.menu_rrss {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -186,7 +186,7 @@
 
 
  @media all and (min-width: 1200px) {
-    .about-us{
+    .about-us {
        padding-bottom: 60px;
        margin: 0 auto;
    }
@@ -199,14 +199,14 @@
        margin: 0;
    }
    
-   .members li:nth-child(even) article{
+   .members li:nth-child(even) article {
        display: flex;
        flex-direction: row-reverse;
        margin-top: 60px;
        margin-bottom: 60px;
    }
    
-   .members li:nth-child(odd) article{
+   .members li:nth-child(odd) article {
        display: flex;
        flex-direction: row;
    }
@@ -241,6 +241,7 @@
        padding: 0;
    
    }
+
    .main-text.description.par {
        text-align: right;
    
@@ -266,12 +267,11 @@
         justify-content: flex-end;
     }
    
-   .menu_rrss{
+   .menu_rrss {
        padding: 0;
        margin: 0;
        list-style: none;
        display: flex;
    }
-
 }
    
