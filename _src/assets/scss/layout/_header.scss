@@ -9,7 +9,6 @@
 .group-name {
     background-color: $colorBGgroup;
     color: $colorwhite;
-    position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 60px;
@@ -21,13 +20,18 @@
     font-size: 16px;
 }
 
-.group-name a{
+.group-name a {
     color: $colorwhite;
     text-decoration: none;
 }
 
 .menu {
     background: rgba(20, 217, 196, 0.9);
+
+    & a{
+        color: $colorwhite;
+        text-decoration: none;
+    }
 }
 
 .list-header {
@@ -40,15 +44,6 @@
     font-family: 'Rubik', sans-serif;
     padding: 0px;
     font-size: 13px;
-}
-
-.menu a {
-    color: $colorwhite;
-    text-decoration: none;
-}
-
-.menuItem {
-    position: relative;
 }
 
 .list-item {
@@ -88,9 +83,8 @@
         margin: 0;
         padding: 0;
     }
-    
-    
-    .list-item{
+       
+    .list-item {
         margin: 0;
         padding: 0;
         display:inline-block;
@@ -98,7 +92,7 @@
         line-height: 3;
     }
 
-    .list-item-1{
+    .list-item-1 {
         margin: 0;
         padding: 0;
         display:inline-block;
@@ -112,7 +106,6 @@
         padding: 0; 
         margin: 0;
     }
-    
 }
 
 @media all and (min-width:1200px){
@@ -147,7 +140,6 @@
         margin: 0;
         padding: 0;
     }
-    
     
     .list-item {
         margin: 0;
