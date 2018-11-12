@@ -110,36 +110,27 @@
     margin: 0;
 }
 
-// .members li:nth-child(even) article {
-//         display:grid;
-//         grid-template-columns: 2;
-//         grid-template-rows: 1fr 1fr 1fr;
-//         margin-top: 60px;
-//         margin-bottom: 60px;
-//     }
-    
-// .members li:nth-child(odd) article {
-//     display:grid;
-//     grid-template-columns: 2;
-//     grid-template-rows: 1fr 1fr 1fr;
-       
-//     }
 .grid{
     display:grid;
     grid-template-columns: 2;
     margin-top: 60px;
-    margin-bottom: 60px;}
+    margin-bottom: 60px;
+}
+
 .menu_rrss {
     padding: 0;
     margin: 0;   
 }  
+
 .member-description {
     margin-left: 30px;
 }
+
 .profilepic-img {
     width: 205px;
     height: 205px;
 }
+
 .profile-pic{
     grid-column:1 / 2;
     margin: 0;
@@ -165,10 +156,24 @@
     text-align: left;
     margin:0px;
     padding: 0px;
-}
- }
+    }
 
- 
+.name.par {
+    text-align: right;
+    }
+
+.member-description.par {
+        text-align: right;
+        margin-left: 0;
+        margin-right: 45px;
+    }
+    
+.main-text.description.par {
+        text-align: right;
+    
+    }
+    
+}
 
  @media all and (min-width: 1200px) {
     .about-us {
