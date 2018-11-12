@@ -1,13 +1,13 @@
 <div class="form">
-<div class="main-text form-info"><p>Todos los campos marcados con * son obligatorios.</p></div>
+<div class="main-text form-info"><p>Todos los campos marcados con <b>*</b> son obligatorios.</p></div>
 <div class="form-area">
     <form action="" method="post">
         <div class="form-item">
-            <label class="label" for="firstName">Nombre completo*</label>
+            <label class="label required" for="firstName">Nombre completo</label>
             <input class="block firstName" placeholder="Nombre..." id="name" type="text" name="firstName" required>
         </div>
         <div class="form-item">
-            <label class="label" for="email">Email*</label>
+            <label class="label required" for="email">Email</label>
             <input class="block email" value="nombre.apellidos@mail.com" id="email" type="email" name="email" required>
         </div>
         <div class="form-item">
@@ -15,10 +15,12 @@
             <input class="block phone" type="number" id="phone" name="phone" placeholder="Ej: 123456789" pattern="[0-9] {9}">
         </div>
         <div class="form-item">
-            <label class="label" for="message">Mensaje*</label>
-            <input class="block message" placeholder="¿Qué necesitas?" id="message" type="textarea" name="message" required>
+            <label class="label required" for="message">Mensaje</label>
+            <textarea class="block message" placeholder="¿Qué necesitas?" id="message" type="textarea" name="message" required> </textarea>
         </div>
-        <input class="button" type="submit" value="Enviar">
+        <div class="button-container">
+            <input class="button" type="submit" value="Enviar">
+        </div>
     </form>
 </div>
 </div>
