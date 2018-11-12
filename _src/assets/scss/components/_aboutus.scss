@@ -64,9 +64,9 @@
     justify-content: center;
 }
   
-// .menu__item{
-//     position: relative
-// }
+.menu__item{
+    position: relative
+}
 
 .menu__item + .menu__item {
     margin-left: 20px;
@@ -111,62 +111,6 @@
 }
 
 // .members li:nth-child(even) article {
-//     display: flex;
-//     flex-direction: row-reverse;
-//     margin-top: 60px;
-//     margin-bottom: 60px;
-// }
-
-// .members li:nth-child(odd) article {
-//     display: flex;
-//     flex-direction: row;
-// }
-
-// .name {
-//     color: #000000;
-//     font-family: 'Open Sans', sans-serif;
-//     font-weight: 400;
-//     font-size: 20px; 
-//     margin-top: 0px;
-//     margin-bottom: 0;
-//     text-align: left;
-
-// .member-description {
-//     margin-left: 30px;
-// }
-
-
-// .main-text.description {
-//     text-align: left;
-//     padding: 0;
-
-// }
-
-// .profilepic-img {
-//     width: 205px;
-//     height: 205px;
-// }
-
-// .profile-pic {
-//     margin: 0;
-// }
-
-// .rrss {
-//     display: flex;
-//     margin: 0px;
-//     justify-content: flex-start;
-// }
-
-
-
-// .menu_rrss {
-//     padding: 0;
-//     margin: 0;
-//     list-style: none;
-//     display: flex;
-// }  
-
-// .members li:nth-child(even) article {
 //         display:grid;
 //         grid-template-columns: 2;
 //         grid-template-rows: 1fr 1fr 1fr;
@@ -180,28 +124,51 @@
 //     grid-template-rows: 1fr 1fr 1fr;
        
 //     }
-    .profile-pic{
+.grid{
+    display:grid;
+    grid-template-columns: 2;
+    margin-top: 60px;
+    margin-bottom: 60px;}
+.menu_rrss {
+    padding: 0;
+    margin: 0;   
+}  
+.member-description {
+    margin-left: 30px;
+}
+.profilepic-img {
+    width: 205px;
+    height: 205px;
+}
+.profile-pic{
     grid-column:1 / 2;
+    margin: 0;
     }
-    .member-description{
+
+.member-description{
     grid-column: 2 / 3;
     text-align: left;
     }
-    .grid{
-        display:grid;
-        grid-template-columns: 2;
-        margin-top: 60px;
-        margin-bottom: 60px;}
-    .main-text.description{
-        text-align: left;
+    
+.main-text.description{
+    text-align: left;
+    padding:0px;
     }
-.menu_rrss{
-    text-align: left;}
+
+.rrss{
+    display: inline-block;
+    text-align: left;
+    margin:0px;
+}
+
+ .name{
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+}
  }
 
- .name {
-     text-align: left;}
-
+ 
 
  @media all and (min-width: 1200px) {
     .about-us {
