@@ -97,13 +97,16 @@
  // about us
  @media all and (min-width: 768px) and (max-width: 1200px) {
  .about-us{
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+   
+}
+.section.menuItem.about-us{
+    padding: 0;
 }
 
 .h2--about-us {
-    margin: 45px 0 45px 0;
+    margin: 45px 0;
 }
 
 .members {
@@ -113,8 +116,9 @@
 .grid{
     display:grid;
     grid-template-columns: 2;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    grid-template-rows: 1fr;
+    // margin-top: 60px;
+    // margin-bottom: 60px;
 }
 
 .menu_rrss {
@@ -144,6 +148,8 @@
 .main-text.description{
     text-align: left;
     padding:0px;
+    margin-block-end: 15px;
+    margin-block-start: 15px;
     }
 
 .rrss{
@@ -166,18 +172,22 @@
         text-align: right;
         margin-left: 0;
         margin-right: 45px;
+        grid-column: 1 / 2;
     }
     
 .main-text.description.par {
         text-align: right;
-    
+        padding: 0;
     }
-    
+
+.profile-pic.par{
+    grid-column: 2 / 3;
+    grid-row-start: 1;
+}
 }
 
  @media all and (min-width: 1200px) {
     .about-us {
-       padding-bottom: 60px;
        margin: 0 auto;
    }
    
