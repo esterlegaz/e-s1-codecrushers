@@ -17,6 +17,7 @@
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
+    transition: transform ease 0.5s;
 }
 
 .group-name {
@@ -35,6 +36,11 @@
         animation-iteration-count: infinite;
         animation-timing-function: ease;
     }
+
+    &:hover .h1{
+        transform: scale(1.1);
+    }
+
 }
 
 @keyframes punch-animation{
