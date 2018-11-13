@@ -6,6 +6,14 @@
     top: 0px;
 }
 
+.logo-punch{
+    background-image: url(../../images/logo-punch.png);
+    background-color: red;
+    height: 20px;
+    width: 30px;
+    background-size: contain;
+}
+
 .group-name {
     background-color: $colorBGgroup;
     color: $colorwhite;
@@ -55,6 +63,17 @@
     display:inline-block;
     width: 200px;
     line-height: 3;
+    border-radius: 4px;
+
+    transition: background-color ease .5s, color ease .5s;
+
+    &:hover {
+        background-color: $colorwhite;
+
+        a{
+            color: $colorTitle;
+        }
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
