@@ -21,9 +21,13 @@
     color: $colorText;
     font-weight: 600;
 
-    & a {
-        color: $colorText;
-        text-decoration: none;
+.list-footer>a {
+    color: $colorText;
+    text-decoration: none;
+    transition: color ease-in 0.4s;
+
+    &:hover{
+        color: $colorTitle;
     }
 }
 
@@ -34,6 +38,11 @@
 
 .logo-img {
     width: 115.9px;
+    transition: transform ease-in-out 0.4s;
+
+    &:hover{
+        transform: scale(1.3);
+    }
 }
 
 
