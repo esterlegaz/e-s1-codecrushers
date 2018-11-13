@@ -18,17 +18,22 @@
     
     <body>
         <header class="header">
-             <h1 class="group-name"><a href="index.html">CODE CRUSHERS</a></h1>
+            <div class="group-name">
+                <div class="punch-container">
+                    <img class="logo-punch" src="assets/images/logo-punch.png" alt="logo Code Crushers">
+                </div>
+                 <h1 class="h1"><a href="index.html">CODE CRUSHERS</a></h1>
 
+            </div>
             <nav class="menu">
                 <ul class="list list-header">
-                    <li class="list list-header list-item"><a href="index.html#team">EQUIPO</a>
+                    <li class="list list-header list-item"> <a href="index.html#team">EQUIPO</a>
 
                     </li>
-                    <li class="list list-header list-item list-item-1"><a href="index.html#aboutus">QUIÉNES SOMOS</a>
+                    <li class="list list-header list-item list-item-1"> <a href="index.html#aboutus">QUIÉNES SOMOS</a>
 
                     </li>
-                    <li class="list list-header list-item"><a href="contact.html">CONTACTO</a>
+                    <li class="list list-header list-item"> <a href="contact.html">CONTACTO</a>
 
                     </li>
                 </ul>
@@ -47,46 +52,52 @@
                 <!-- Aquí iría el formulario-->
             </section>
         </main>
-        <div class="form-info">
-            <p>Todos los campos marcados con * son obligatorios.</p>
-        </div>
         <div class="form">
-            <form action="" method="post">
-                <div>
-                    <label class="label" for="name">Nombre completo*</label>
-                    <input class="block name" placeholder="Nombre..."
-                    id="name" type="text" name="firstName" required>
-                </div>
-                <div>
-                    <label class="label" for="email">Email*</label>
-                    <input class="block email" value="nombre.apellidos@mail.com"
-                    id="email" type="email" name="email" required>
-                </div>
-                <div>
-                    <label class="label" for="phone">Teléfono</label>
-                    <input class="block phone" type="number" id="phone" name="phone"
-                    placeholder="Ej: 123456789" pattern="[0-9] {9}">
-                </div>
-                <div>
-                    <label class="label" for="message">Mensaje*</label>
-                    <input class="block message" placeholder="¿Qué necesitas?"
-                    id="message" type="textarea" name="message" required>
-                </div>
-                <input type="submit" value="Enviar">
-            </form>
+            <div class="main-text form-info">
+                <p>Todos los campos marcados con <b>*</b> son obligatorios.</p>
+            </div>
+            <div class="form-area">
+                <form action="" method="post">
+                    <div class="form-item">
+                        <label class="label required" for="firstName">Nombre completo</label>
+                        <input class="block firstName" placeholder="Nombre..."
+                        id="name" type="text" name="firstName" required>
+                    </div>
+                    <div class="contact-data">
+                        <div class="form-item email">
+                            <label class="label required" for="email">Email</label>
+                            <input class="block email" value="nombre.apellidos@mail.com"
+                            id="email" type="email" name="email" required>
+                        </div>
+                        <div class="form-item phone-number">
+                            <label class="label" for="phone">Teléfono</label>
+                            <input class="block phone" type="number" id="phone" name="phone"
+                            placeholder="Ej: 123456789" pattern="[0-9] {9}">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label class="label required" for="message">Mensaje</label>
+                        <textarea class="block message" placeholder="¿Qué necesitas?"
+                        id="message" type="textarea" name="message" required></textarea>
+                    </div>
+                    <div class="button-container">
+                        <input class="button" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </div>
         <footer class="footer">
             <div class="footer_container">
                 <p class="copyright">Code crushers © 2018</p>
                 <nav>
                     <ul class="footer-links">
-                        <li class="list list-footer"><a href="index.html#team">EQUIPO</a>
+                        <li class="list list-footer"> <a href="index.html#team">EQUIPO</a>
 
                         </li>
-                        <li class="list list-footer"><a href="index.html#aboutus">QUIÉNES SOMOS</a>
+                        <li class="list list-footer"> <a href="index.html#aboutus">QUIÉNES SOMOS</a>
 
                         </li>
-                        <li class="list list-footer"><a href="contact.html">CONTACTO</a>
+                        <li class="list list-footer"> <a href="contact.html">CONTACTO</a>
 
                         </li>
                     </ul>
