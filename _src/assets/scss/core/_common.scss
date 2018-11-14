@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-title {
+    @include section-title();
+}
+
+.main-text {
+    @include main-text();
+}
+
+.main-text {
+    @include main-text();
+}
