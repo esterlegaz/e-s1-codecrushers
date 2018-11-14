@@ -1,9 +1,9 @@
-.h2 {
-    @include h2();
+.section-title {
+    @include section-title();
 }
 
-.h3 {
-    @include h3();
+.subtitle {
+    @include subtitle();
 }
 
 .main-text {
@@ -23,7 +23,7 @@
     }
 }
 
-.h2--group {
+.section-title--group {
     margin-top: 30px;
     }
 
@@ -65,7 +65,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
 
-    .h2--group {
+    .section-title--group {
         margin-top: 45px;
     }
 
@@ -119,7 +119,7 @@
 
 @media all and (min-width:1200px) {
 
-    .h2--group {
+    .section-title--group {
         margin-top: 45px;
     }
 
