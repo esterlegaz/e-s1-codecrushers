@@ -94,92 +94,90 @@
 }
 
  @media all and (min-width: 768px) and (max-width: 1200px) {
- .about-us{
-    margin: 0 45px;
-}
-
-.section.menuItem.about-us{
-    padding: 0;
-}
-
-.h2--about-us {
-    margin: 45px 0;
-}
-
-.members {
-    margin: 0;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns: 2;
-    margin-bottom: 60px;
-  
-}
-
-.menu_rrss {
-    padding: 0;
-    margin: 0;   
-}  
-
-.member-description {
-    margin-left: 30px;
-}
-
-.profilepic-img {
-    width: 205px;
-    height: 205px;
-}
-
-.profile-pic{
-    grid-column:1 / 2;
-    margin: 0;
+    .about-us {
+        margin: 0 45px;
     }
 
-.member-description{
-    grid-column: 2 / 3;
-    text-align: left;
-    }
-    
-.main-text.description{
-    text-align: left;
-    padding:0px;
-    margin-block-end: 15px;
-    margin-block-start: 15px;
-    }
-
-.rrss{
-    display: inline-block;
-    text-align: left;
-    margin:0px;
-}
-
- .name{
-    text-align: left;
-    margin:0px;
-    padding: 0px;
-    }
-
-.name.par {
-    text-align: right;
-    }
-
-.member-description.par {
-        text-align: right;
-        margin-left: 0;
-        margin-right: 30px;
-        grid-column: 1 / 2;
-    }
-    
-.main-text.description.par {
-        text-align: right;
+    .section.menuItem.about-us {
         padding: 0;
     }
 
-.profile-pic.par{
-    grid-column: 2 / 3;
-    grid-row-start: 1;
-}
+    .h2--about-us {
+        margin: 45px 0;
+    }
+
+    .members {
+        margin: 0;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 205px 1fr 205px;
+        margin-bottom: 60px;
+    }
+
+    .menu_rrss {
+        padding: 0;
+        margin: 0;   
+    }  
+
+    .member-description {
+        margin-left: 30px;
+    }
+
+    .profilepic-img {
+        width: 205px;
+        height: 205px;
+    }
+
+    .profile-pic{
+        grid-column:1 / 2;
+        margin: 0;
+        }
+
+    .member-description{
+        grid-column: span 2;
+        text-align: left;
+        }
+        
+    .main-text.description{
+        text-align: left;
+        padding:0px;
+        margin-block-end: 15px;
+        margin-block-start: 15px;
+        }
+
+    .rrss{
+        display: inline-block;
+        text-align: left;
+        margin:0px;
+    }
+
+    .name{
+        text-align: left;
+        margin:0px;
+        padding: 0px;
+        }
+
+    .name.par {
+        text-align: right;
+        }
+
+    .member-description.par {
+            text-align: right;
+            margin-left: 0;
+            margin-right: 30px;
+        }
+        
+    .main-text.description.par {
+            text-align: right;
+            padding: 0;
+        }
+
+    .profile-pic.par{
+        grid-column: 3 / 4;
+        grid-row-start: 1;
+    }
 }
 
  @media all and (min-width: 1200px) {
@@ -201,7 +199,7 @@
     
     .grid{
         display:grid;
-        grid-template-columns: 2;
+        grid-template-columns: 278px 1fr 278px;
         margin-bottom: 60px;
       
     }
@@ -226,8 +224,9 @@
         }
     
     .member-description{
-        grid-column: 2 / 3;
+        grid-column: span 2;
         text-align: left;
+        max-width: 439px;
         }
         
     .main-text.description{
@@ -255,9 +254,8 @@
     
     .member-description.par {
             text-align: right;
-            margin-left: 0;
+            margin-left: auto;
             margin-right: 45px;
-            grid-column: 1 / 2;
         }
         
     .main-text.description.par {
@@ -266,7 +264,7 @@
         }
     
     .profile-pic.par{
-        grid-column: 2 / 3;
+        grid-column: 3 / 4;
         grid-row-start: 1;
     }
 
