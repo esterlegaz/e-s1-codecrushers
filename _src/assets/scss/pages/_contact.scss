@@ -71,6 +71,7 @@ input {
 textarea {
     padding: 11px 15px 75px;
     resize: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .button {
@@ -81,10 +82,12 @@ textarea {
     border-color: $colorTitle;
     margin-bottom: 60px;
     height: 45px;
+    width: 290px;
     margin-top: 0;
+    
 }
 
-b {
+.asterisk {
     color: $colorTitle;
 }
 
@@ -152,7 +155,7 @@ b {
 
     .button {
         height: 45px;
-        width: 206px;
+        width: 278px;
         margin-right: 0;
         margin-bottom: 120px; 
     }
