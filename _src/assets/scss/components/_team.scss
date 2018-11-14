@@ -52,6 +52,9 @@
     margin-bottom: 30px;
 }
 
+.section{
+    position: relative;
+}
 .trick {
     width: 0;
     height: 0;
@@ -159,4 +162,12 @@
     .fortalezas-debilidades .triangle {
         transform: translate(-50%, 0px);
     }
+
+    .trick {
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        top: -50px;
+    } 
 }
