@@ -10,9 +10,9 @@ ul {
     list-style-type: none;
 }
 
-
 @import 'core/mixins';
 @import 'core/variables';
+@import 'core/texts';
 @import 'components/hero';
 @import 'components/team';
 @import 'components/aboutus';

@@ -1,7 +1,3 @@
-.section-title {
-    @include section-title();
-}
-
 .main-text {
     @include main-text();
 }
@@ -95,15 +91,15 @@
 
  @media all and (min-width: 768px) and (max-width: 1200px) {
 
- .about-us{
+    .about-us{
     margin: 0 45px;
-}
+}   
 
-.section.menuItem.about-us{
+    .section.menuItem.about-us{
     padding: 0;
 }
 
-.section-title--about-us {
+    .section-title--about-us {
     margin: 45px 0;
 }
 
@@ -111,7 +107,7 @@
         padding: 0;
     }
 
-    .h2--about-us {
+.section-title--about-us {
         margin: 45px 0;
     }
 
@@ -142,19 +138,19 @@
     .profile-pic{
         grid-column:1 / 2;
         margin: 0;
-        }
+    }
 
     .member-description{
         grid-column: span 2;
         text-align: left;
-        }
+    }
         
     .main-text.description{
         text-align: left;
         padding:0px;
         margin-block-end: 15px;
         margin-block-start: 15px;
-        }
+    }
 
     .rrss{
         display: inline-block;
@@ -166,22 +162,22 @@
         text-align: left;
         margin:0px;
         padding: 0px;
-        }
+    }
 
     .name.par {
         text-align: right;
-        }
+    }
 
     .member-description.par {
             text-align: right;
             margin-left: 0;
             margin-right: 30px;
-        }
+    }
         
     .main-text.description.par {
             text-align: right;
             padding: 0;
-        }
+    }
 
     .profile-pic.par{
         grid-column: 3 / 4;
@@ -190,6 +186,7 @@
 }
 
  @media all and (min-width: 1200px) {
+
     .about-us{
         margin: 0 auto;
         max-width: 960px;
