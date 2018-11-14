@@ -103,10 +103,11 @@ b {
         width: 442px;
     }
 
-    .hero-claim{
-        background: url('../images/hero_home-tablet.jpg') center no-repeat $colorwhite;
+    .hero-claim {
+        background: url('../images/hero_home-tablet.jpg') center top no-repeat $colorwhite;
         background-size: 100%;
     }
+
     .form-area {
         margin: 0 auto;
         width: 442px;
@@ -136,9 +137,10 @@ b {
     }
 
     .hero-claim {
-        background: url('../images/hero_contact-desktop.jpg') center no-repeat $colorwhite;
+        background: url('../images/hero_home-desktop.jpg') center top no-repeat $colorwhite;
         background-size: 100%;
     }
+
     .form-area {
         margin: 0 auto;
         width: 601px;
