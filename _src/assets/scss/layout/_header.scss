@@ -46,15 +46,16 @@
 @keyframes punch-animation{
     
     0%{
-        top: -5px;
+        top: 0px;
     }
 
-    50%{
-        top: 5px;
+
+    90%{
+        top: -5px;
     }
 
     100%{
-        top: -5px;
+        top: 5px;
     }
 }
 
