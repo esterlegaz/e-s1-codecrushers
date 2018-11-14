@@ -18,6 +18,7 @@
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
     transition: transform ease 0.5s;
+    transition-delay: 1s;
 }
 
 .group-name {
@@ -40,7 +41,6 @@
     &:hover .group-title{
         transform: scale(1.1);
     }
-
 }
 
 @keyframes punch-animation{
@@ -81,13 +81,13 @@
     height: 45px;
     align-items: center;
     font-family: 'Rubik', sans-serif;
+    font-weight: 500;
     padding: 0px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .list-item {
     display:inline-block;
-    width: 200px;
     line-height: 3;
     border-radius: 4px;
 
@@ -100,6 +100,11 @@
             color: $colorTitle;
         }
     }
+}
+
+.list-item-1 {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
@@ -133,21 +138,6 @@
         margin: 0;
         padding: 0;
     }
-       
-    .list-item {
-        margin: 0;
-        padding: 0;
-        display:inline-block;
-        width: 80px;
-        line-height: 3;
-    }
-
-    .list-item-1 {
-        margin: 0;
-        padding: 0;
-        display:inline-block;
-        width: 120px;
-    }
 
     .list-header {
         display: flex;
@@ -155,6 +145,11 @@
         font-family: 'Rubik', sans-serif;
         padding: 0; 
         margin: 0;
+    }
+
+    .list-item-1 {
+        margin-left: 18px;
+        margin-right: 19px;
     }
 }
 
@@ -190,26 +185,16 @@
         padding: 0;
     }
     
-    .list-item {
-        margin: 0;
-        padding: 0;
-        display:inline-block;
-        width: 80px;
-        line-height: 3;
-    }
-
-    .list-item-1 {
-        margin: 0;
-        padding: 0;
-        display:inline-block;
-        width: 120px;
-    }
-
     .list-header {
         display: flex;
         align-items: center;
         font-family: 'Rubik', sans-serif;
         padding: 0; 
         margin: 0;
+    }
+
+    .list-item-1 {
+        margin-left: 18px;
+        margin-right: 19px;
     }
 }
