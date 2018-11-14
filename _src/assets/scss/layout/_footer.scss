@@ -55,8 +55,8 @@
             
     .footer_container {
         margin: 30px 45px 60px 45px;
-        display: flex;
-        justify-content: space-between; 
+        display: grid;
+        grid-template-columns:  145px 1fr;
         height: 75px;
         position: relative;     
     }
@@ -73,6 +73,7 @@
             padding:5px;
         }
     }
+
             
     .logo {
         position: absolute;
@@ -94,8 +95,8 @@
             
     .footer_container {
         margin: 30px 120px 60px 120px;
-        display: flex;
-        justify-content: space-between; 
+        display: grid;
+        grid-template-columns:  145px 1fr; 
         height: 75px;
         position: relative;
     }
