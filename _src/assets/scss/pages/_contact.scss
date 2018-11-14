@@ -24,6 +24,83 @@
     background-size: 100%;
 }
 
+.form {
+    margin: 0 auto;
+}
+
+.form-info {
+    margin-bottom: 60px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.form-area {
+    margin: 0 15px;
+    max-width: 601px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+.label {
+    display: block;
+    color: $colorText;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px 15px 0px;
+    height: 45px;
+    border: 1px solid $footerText;
+    padding: 11px 15px 15px;
+
+    &.email{
+        padding: 7px 15px 16px;
+    }
+}
+
+.message {
+    height: 105px;
+    width: 100%;
+    border-color: $footerText;
+    margin: 5px 0px 30px 0px;
+}
+
+textarea {
+    padding: 11px 15px 75px;
+    resize: none;
+}
+
+.button {
+    background-color: $colorTitle;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border-color: $colorTitle;
+    margin-bottom: 60px;
+    height: 45px;
+    margin-top: 0;
+}
+
+b {
+    color: $colorTitle;
+}
+
+.required {
+    &::after{
+        content: "*";
+        margin: 0px 2px;
+        color: $colorTitle;
+        font-weight: bold;
+    }
+}
+
 @media all and (min-width: 768px) and (max-width: 1200px) {
 
     .contact-text {
@@ -33,6 +110,21 @@
     .hero-claim{
         background: url('../images/hero_home-tablet.jpg') center no-repeat $colorwhite;
         background-size: 100%;
+    }
+    .form-area {
+        margin: 0 auto;
+        width: 442px;
+    }
+
+    .button {
+        height: 45px;
+        width: 206px;
+        margin-right: 0; 
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
@@ -50,5 +142,38 @@
     .hero-claim {
         background: url('../images/hero_contact-desktop.jpg') center no-repeat $colorwhite;
         background-size: 100%;
+    }
+    .form-area {
+        margin: 0 auto;
+        width: 601px;
+    }
+
+    form {
+        width: 601px;
+    }
+
+    .button {
+        height: 45px;
+        width: 206px;
+        margin-right: 0;
+        margin-bottom: 120px; 
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .contact-data {
+        display: flex;
+    }
+
+    .phone-number {
+        margin-left: 44px;
+        max-width: 162px;
+    }
+    
+    .form-item .email {
+        width: 395px;
     }
 }

@@ -1,9 +1,43 @@
 <section class="contact-box">
     <div class="h2 contact-title">CONTACTO</div>
 
-        <div class="contact-text">
-            
-        <p class="main-text">Para cualquier colaboración o duda, rellena el siguiente formulario y contactaremos contigo lo antes posible.</p>
+    <div class="contact-text">
+
+        <p class="main-text">Para cualquier colaboración o duda, rellena el siguiente formulario y contactaremos
+            contigo lo antes posible.</p>
+    </div>
+    <div class="form">
+        <div class="main-text form-info">
+            <p>Todos los campos marcados con <b>*</b> son obligatorios.</p>
         </div>
-<!-- Aquí iría el formulario-->
+        <div class="form-area">
+            <form action="" method="post">
+                <div class="form-item">
+                    <label class="label required" for="firstName">Nombre completo</label>
+                    <input class="block firstName" placeholder="Nombre..." id="name" type="text" name="firstName"
+                        required>
+                </div>
+                <div class="contact-data">
+                    <div class="form-item email">
+                        <label class="label required" for="email">Email</label>
+                        <input class="block email" placeholder="nombre.apellidos@mail.com" id="email" type="email" name="email"
+                            required>
+                    </div>
+                    <div class="form-item phone-number">
+                        <label class="label" for="phone">Teléfono</label>
+                        <input class="block phone" type="tel" id="phone" name="phone" placeholder="Ej: 123456789"
+                            pattern="[0-9] {9}">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="label required" for="message">Mensaje</label>
+                    <textarea class="block message" placeholder="¿Qué necesitas?" id="message" type="textarea" name="message"
+                        required> </textarea>
+                </div>
+                <div class="button-container">
+                    <input class="button" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
 </section>
