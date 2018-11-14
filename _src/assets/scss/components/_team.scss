@@ -27,7 +27,7 @@
     margin-top: 30px;
     }
 
-.fortalezas-debilidades {
+.strengths-weaknesses {
     padding: 30px 15px 45px 15px;
     background: #f1f1f1;
 
@@ -48,7 +48,7 @@
     }
 }
 
-.fortalezas {
+.strengths {
     margin-bottom: 30px;
 }
 
@@ -83,28 +83,28 @@
     margin: 0px;
     }
 
-    .fortalezas-debilidades {
+    .strengths-weaknesses {
     display: flex;
     justify-content: center;
     padding: 0px 45px 60px 45px;
     }
 
-    .fortalezas-debilidades-justified-container {
+    .strengths-weaknesses-justified-container {
     display: flex;
     width: 900px;
     padding-top: 45px;
     }
 
-    .fortalezas {
+    .strengths {
     margin: 0px;
     width: 50%;
     }
 
-    .debilidades {
+    .weaknesses {
     width: 50%;
     }
 
-    .fortalezas-debilidades .triangle {
+    .strengths-weaknesses .triangle {
     transform: translate(-50%, 0px);
     }
     
@@ -137,29 +137,29 @@
         margin: 0px;
     }
 
-    .fortalezas-debilidades {
+    .strengths-weaknesses {
         display: flex;
         justify-content: center;
         padding: 0px 45px 60px 45px;
     }
 
-    .fortalezas-debilidades-justified-container {
+    .strengths-weaknesses-justified-container {
         display: flex;
         width: 900px;
         padding-top: 45px;
     }
     
-    .fortalezas {
+    .strengths {
         margin: 0px;
         width: 50%;
         margin-right: 15px;
     }
 
-    .debilidades{
+    .weaknesses{
         width: 50%;
     }
     
-    .fortalezas-debilidades .triangle {
+    .strengths-weaknesses .triangle {
         transform: translate(-50%, 0px);
     }
 
