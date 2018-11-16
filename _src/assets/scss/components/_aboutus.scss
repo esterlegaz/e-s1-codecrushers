@@ -20,7 +20,6 @@
 }
 
 .profile-pic {
-   
     margin-top: 30px;
     margin-bottom: 15px;
   
@@ -55,7 +54,7 @@
     justify-content: center;
 }
   
-.menu__item{
+.menu__item {
     position: relative
 }
 
@@ -87,11 +86,11 @@
 
  @media all and (min-width: 768px) and (max-width: 1200px) {
 
-    .about-us{
+    .about-us {
     margin: 0 45px;
 }   
 
-    .section.menuItem.about-us{
+    .section.menuItem.about-us {
     padding: 0;
 }
 
@@ -111,7 +110,7 @@
         margin: 0;
     }
 
-    .grid{
+    .grid {
         display: grid;
         grid-template-columns: 205px 1fr 205px;
         margin-bottom: 60px;
@@ -131,32 +130,32 @@
         height: 205px;
     }
 
-    .profile-pic{
-        grid-column:1 / 2;
+    .profile-pic {
+        grid-column: 1 / 2;
         margin: 0;
     }
 
-    .member-description{
+    .member-description {
         grid-column: span 2;
         text-align: left;
     }
         
-    .main-text.description{
+    .main-text.description {
         text-align: left;
-        padding:0px;
+        padding: 0px;
         margin-block-end: 15px;
         margin-block-start: 15px;
     }
 
-    .rrss{
+    .rrss {
         display: inline-block;
         text-align: left;
-        margin:0px;
+        margin: 0px;
     }
 
-    .name{
+    .name {
         text-align: left;
-        margin:0px;
+        margin: 0px;
         padding: 0px;
     }
 
@@ -165,17 +164,17 @@
     }
 
     .member-description.par {
-            text-align: right;
-            margin-left: 0;
-            margin-right: 30px;
+        text-align: right;
+        margin-left: 0;
+        margin-right: 30px;
     }
         
     .main-text.description.par {
-            text-align: right;
-            padding: 0;
+        text-align: right;
+        padding: 0;
     }
 
-    .profile-pic.par{
+    .profile-pic.par {
         grid-column: 3 / 4;
         grid-row-start: 1;
     }
@@ -183,11 +182,11 @@
 
  @media all and (min-width: 1200px) {
 
-    .about-us{
+    .about-us {
         margin: 0 auto;
         max-width: 960px;
     }
-    .section.menuItem.about-us{
+    .section.menuItem.about-us {
         padding: 0;
     }
     
@@ -200,7 +199,7 @@
     }
     
     .grid{
-        display:grid;
+        display: grid;
         grid-template-columns: 278px 1fr 278px;
         margin-bottom: 60px;
       
@@ -220,33 +219,33 @@
         height: 278px;
     }
     
-    .profile-pic{
+    .profile-pic {
         grid-column:1 / 2;
         margin: 0;
         }
     
-    .member-description{
+    .member-description {
         grid-column: span 2;
         text-align: left;
         max-width: 439px;
         }
         
-    .main-text.description{
+    .main-text.description {
         text-align: left;
-        padding:0px;
+        padding: 0px;
         margin-block-end: 15px;
         margin-block-start: 15px;
         }
     
-    .rrss{
+    .rrss {
         display: inline-block;
         text-align: left;
-        margin:0px;
+        margin: 0px;
     }
     
-     .name{
+     .name {
         text-align: left;
-        margin:0px;
+        margin: 0px;
         padding: 0px;
         }
     
@@ -265,7 +264,7 @@
             padding: 0;
         }
     
-    .profile-pic.par{
+    .profile-pic.par {
         grid-column: 3 / 4;
         grid-row-start: 1;
     }

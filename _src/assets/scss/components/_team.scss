@@ -9,7 +9,7 @@
 .equipo-info {
     margin: 30px 0px;
 
-    & .group-description{
+    & .group-description {
         margin-top: 0;
         margin-bottom: 30px;
     }
@@ -44,9 +44,10 @@
     margin-bottom: 30px;
 }
 
-.section{
+.section {
     position: relative;
 }
+
 .trick {
     width: 0;
     height: 0;
@@ -62,42 +63,42 @@
     }
 
     .group-description {
-    width: 601px;
-    margin-bottom: 60px;
-    text-align: center;
-    margin-top: 0;
+        width: 601px;
+        margin-bottom: 60px;
+        text-align: center;
+        margin-top: 0;
     }
 
     .equipo-info {
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
     }
 
     .strengths-weaknesses {
-    display: flex;
-    justify-content: center;
-    padding: 0px 45px 60px 45px;
+        display: flex;
+        justify-content: center;
+        padding: 0px 45px 60px 45px;
     }
 
     .strengths-weaknesses-justified-container {
-    display: flex;
-    width: 900px;
-    padding-top: 45px;
+        display: flex;
+        width: 900px;
+        padding-top: 45px;
     }
 
     .strengths {
-    margin: 0px;
-    width: 50%;
+        margin: 0px;
+        width: 50%;
     }
 
     .weaknesses {
-    width: 50%;
+        width: 50%;
     }
 
     .strengths-weaknesses .triangle {
-    transform: translate(-50%, 0px);
+        transform: translate(-50%, 0px);
     }
     
     .trick {
@@ -147,7 +148,7 @@
         margin-right: 15px;
     }
 
-    .weaknesses{
+    .weaknesses {
         width: 50%;
     }
     
