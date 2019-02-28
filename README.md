@@ -1,4 +1,4 @@
-# Proyecto de web grupal colaborativa para el Sprint 1 de Adalab. 
+# Proyecto de web grupal colaborativa.
 
 El desarrollo de la página web cuenta con las siguientes características:
 - Uso de HTML y Sass (al principio usaréis CSS pero la versión final debe usar Sass)
